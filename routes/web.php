@@ -4,6 +4,11 @@ use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
+    // composer install
+    // cp .env.example .env
+    // php artisan key:generate
+    // php artisan migrate
+    // php artisan db:seed
     //No 1.
     //tables User, Role, UserRole
     // display [
